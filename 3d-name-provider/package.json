@@ -1,0 +1,33 @@
+{
+  "name": "@amitkshirsagar/3d-name-provider",
+  "version": "0.2.4-3",
+  "description": "name provider",
+  "main": "dist/3d-name-provider.cjs.js",
+  "module": "dist/3d-name-provider.esm.js",
+  "browser": "dist/3d-name-provider.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/3d-name-generator.spec",
+    "pretest": "npm run build"
+  },
+  "dependencies": {
+    "@amitkshirsagar/name-provider": "0.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
