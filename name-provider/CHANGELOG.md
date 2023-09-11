@@ -6,11 +6,12 @@
 
 ### Added
 
-- NA
+- `getRandomNumberWithVersion` added to return the version included with random number
 
 ### Fixed
 
-- `getRandomNumber` fixed to return the version included with random number
+- `getNameWith10To20` fixed to return the version included with random number
+- `getNameWith20To30` fixed to return the version included with random number
 
 ### Changed
 
