@@ -1,10 +1,10 @@
 {
-  "name": "@amitkshirsagar/zelx-name-provider",
+  "name": "@amitkshirsagar/xhost-application",
   "version": "0.1.0",
   "description": "name provider",
-  "main": "dist/zelx-name-provider.cjs.js",
-  "module": "dist/zelx-name-provider.esm.js",
-  "browser": "dist/zelx-name-provider.umd.js",
+  "main": "dist/xhost-application.cjs.js",
+  "module": "dist/xhost-application.esm.js",
+  "browser": "dist/xhost-application.umd.js",
   "scripts": {
     "build": "rollup -c",
     "test": "node test/zelx-name-generator.spec",

@@ -5,9 +5,9 @@ import pkg from "./package.json";
 
 export default [
   {
-    input: "src/zelx-name-generator.js",
+    input: "src/xhost-name-generator.js",
     output: {
-      name: "zelx-name-provider",
+      name: "xhost-application",
       file: pkg.browser,
       format: "umd",
     },
@@ -20,7 +20,7 @@ export default [
     ],
   },
   {
-    input: "src/zelx-name-generator.js",
+    input: "src/xhost-name-generator.js",
     output: [
       { file: pkg.main, format: "cjs" },
       { file: pkg.module, format: "es" },
