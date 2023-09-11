@@ -2,6 +2,24 @@
 
 ## main
 
+## [0.4.5] - 09-10-2023
+
+### Added
+
+- NA
+
+### Fixed
+
+- `getRandomNumber` fixed to return the version included with random number
+
+### Changed
+
+- NA
+
+### Removed
+
+- NA
+
 ## [0.4.4] - 09-10-2023
 
 ### Added
