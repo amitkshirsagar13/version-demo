@@ -2,6 +2,24 @@
 
 ## main
 
+## [0.4.4] - 09-10-2023
+
+### Added
+
+- NA
+
+### Fixed
+
+- `getVersion` fixed to return the version
+
+### Changed
+
+- NA
+
+### Removed
+
+- NA
+
 ## [0.4.3] - 09-10-2023
 
 ### Added

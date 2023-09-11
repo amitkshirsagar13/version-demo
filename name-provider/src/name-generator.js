@@ -23,7 +23,6 @@ export function getColor() {
 };
 
 export function getVersion() {
-    var pjson = require('./package.json');
+    var pjson = require('../package.json');
     return pjson.version;
-
 }
